@@ -1,0 +1,49 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john@example.com",
+        "age": 30,
+        "country": "USA"
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane@example.com",
+        "age": 25,
+        "country": "Canada"
+      },
+      {
+        "id": 3,
+        "username": "alice_wonder",
+        "email": "alice@example.com",
+        "age": 35,
+        "country": "UK"
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "Laptop",
+        "description": "High-performance laptop with latest specifications.",
+        "price": 1200,
+        "availability": true
+      },
+      {
+        "id": 102,
+        "name": "Smartphone",
+        "description": "Feature-rich smartphone with advanced technology.",
+        "price": 800,
+        "availability": true
+      },
+      {
+        "id": 103,
+        "name": "Headphones",
+        "description": "Wireless headphones with noise-cancellation feature.",
+        "price": 150,
+        "availability": false
+      }
+    ]
+  }
+  
