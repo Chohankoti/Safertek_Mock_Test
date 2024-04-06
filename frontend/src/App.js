@@ -7,7 +7,9 @@ import ReactLoading from "react-loading";
 const Login = lazy(() => wait(500).then(()=> import('./Components/Auth/Login')));
 const Register = lazy(() => wait(500).then(()=> import('./Components/Auth/Register')));
 const NavBar = lazy(() => wait(500).then(()=> import('./Components/Header/NavBar')));
-const Pratice = lazy(() => wait(500).then(()=> import('./Components/Pages/Pratice')));
+const Pratice = lazy(() => wait(500).then(()=> import('./Components/utils/Pratice')));
+const Cards = lazy(() => wait(500).then(()=> import('./Components/utils/Cards')));
+const Carosuel = lazy(() => wait(500).then(()=> import('./Components/utils/Carosuel')));
 
 function App() {
   const handleToast = () => {
@@ -69,9 +71,9 @@ function App() {
           <Routes>
             <Route path='/' element={<NavBar/>}>
              <Route path='/' element={<Pratice/>}/>
-               {/* <Route path='/kanban' element={<Kanban/>}/>
-              <Route path='/members' element={<Members/>}/>
-              <Route path='/addmember/:ccode' element={<AddMember/>}/>
+              <Route path='/cards' element={<Cards/>}/>
+              <Route path='/carosuel' element={<Carosuel/>}/>
+               {/* <Route path='/addmember/:ccode' element={<AddMember/>}/>
               <Route path='/ccode' element={<CCode/>}/>
               <Route path='/contact' element={<Contact/>}/>
               <Route path='/msg' element={<ViewMessages/>}/> */}
